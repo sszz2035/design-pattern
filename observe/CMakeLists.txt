@@ -6,7 +6,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 project("observe")
 
 set(SOURCE 
-GameCore.cpp "target/RoleSkill.h" "observer/Role.h" "target/CureSkill.h" "target/HurtSkill.h" "target/HurtSkill.cpp" "target/CureSkill.cpp" "target/RoleSkill.cpp" "observer/RoleObserver.h" "observer/RoleObserver.cpp" "main.cpp")
+"GameCore.cpp" "target/RoleSkill.h" "observer/Role.h" "target/CureSkill.h" "target/HurtSkill.h" "target/HurtSkill.cpp" "target/CureSkill.cpp" "target/RoleSkill.cpp" "observer/RoleObserver.h" "observer/RoleObserver.cpp" "main.cpp")
 
 add_executable(${PROJECT_NAME} ${SOURCE})
 
