@@ -20,3 +20,4 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)  # 静态库和导�
 add_subdirectory ("util")
 add_subdirectory("observe")
 add_subdirectory("strategy")
+add_subdirectory("template")
